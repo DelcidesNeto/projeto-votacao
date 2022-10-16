@@ -1,0 +1,56 @@
+body{
+    font: normal 14pt Arial;
+}
+header, h2{
+    text-align: center;
+}
+section{
+    background-image: linear-gradient(to right, rgb(0, 183, 255), rgba(0, 0, 185, 0.822));
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.685);
+    border-radius: 10%;
+}
+input#email, input#senha{
+    margin-top: 4px;
+    width: 200px;
+    padding: 5px;
+    height: 20px;
+}
+hr{
+    margin-top: -10px;
+    border-color: rgb(255, 145, 0);
+}
+div#txt1{
+    padding: 4px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+div#txt2{
+    padding: 4px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+div#txt3{
+    margin-top: 5px;
+    font-size: 10pt;
+    margin-left: 90px;
+}
+input#botaologin{
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    width: 250px;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+input#botaocadastro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    background-color: yellow;
+}
