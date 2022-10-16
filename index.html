@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Autenticação/Login/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem Vindo</h1>
+    </header>
+    <section>
+        <div>
+            <h2>Login</h2>
+            <hr>
+            <div id="txt1">
+                Seu e-mail
+                <input type="email" name="" id="email" placeholder="exemplo@gmail.com"><br>
+            </div>
+            <div id="txt2">
+                Sua senha
+                <input type="password" name="" id="senha" placeholder="teste1234">
+                <abbr id="informacao" title="Mostrar senha"><input type="checkbox" name="" id="mostrar_senha" onclick="mostrar_senha()"></abbr>
+            </div>
+            <div>
+                <input id="botaologin" type="button" value="Logar" onclick="logar()">
+            </div>
+            <div id="txt3">
+                <small>
+                    <strong>Faça seu cadastro:</strong> 
+                    <input title="Realizar cadastro" id="botaocadastro" type="button" value="Cadastre-se" onclick="mudar_para_cadastro()">
+                </small>
+            </div>
+        </div>
+    </section>
+    <script src="Autenticação/Login/script.js"></script>
+</body>
+</html>
