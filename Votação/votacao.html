@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="liberar_voto()">
+    <audio id="fim" src="" autoplay></audio>
+    <header>
+        <h1>Votações</h1>
+        <p><input type="button" value="Ver contagem de Votos" onclick="mostrar_votos()"></p>
+    </header>
+    <section id="fundo">
+        <div id="topo">
+            <h2>Seu voto importa.</h2>
+        </div>
+        <div>
+            Seu candidato: <input type="number" name="" id="voto" onkeyup="confira()"><frase></frase>
+        </div>
+        <section id="confira">
+            <strong>Confira seu candidato</strong><br>
+            <img id="confira" src="embranco.png" alt="">
+            <input id="botao_confirma" type="button" value="CONFIRMA" onmouseenter="entrou()" onmouseout="saiu()" onclick="confirma()">
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

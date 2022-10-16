@@ -1,0 +1,47 @@
+body{
+    font: normal 14pt Arial;
+    background-color: blue;
+}
+frase{
+    margin-left: 20px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    text-align: center;
+}
+input#botao_confirma{
+    background-color: green;
+    font: normal 20pt Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+}
+section#fundo{
+    background-image: url('fundo.jpg');
+    max-width: 700px;
+    height: 700px;
+    margin: auto;
+    background-color: red;
+    padding: 5px;
+}
+section#confira{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    background-color: gray;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    border-color: rgba(0, 0, 0, 0.658);
+    border-style: solid;
+}
+div#topo{
+    text-align: center;
+    padding: 10px;
+}
+select#tabela_de_votos{
+    margin-left: 75px;
+    width: 170px;
+
+}
+img#confira{
+    padding-left: 12px;
+}
