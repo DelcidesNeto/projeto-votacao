@@ -10,6 +10,9 @@ frase{
 header{
     text-align: center;
 }
+input#voto{
+    width: 30px;
+}
 input#botao_confirma{
     background-color: green;
     font: normal 20pt Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
