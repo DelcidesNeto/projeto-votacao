@@ -17,6 +17,7 @@ input#botao_confirma{
 }
 section#fundo{
     background-image: url('fundo.jpg');
+    background-position: center top;
     max-width: 700px;
     min-width: 300px;
     height: 700px;
